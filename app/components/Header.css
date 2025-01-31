@@ -1,0 +1,80 @@
+/* app/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* Header background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f46e5; /* Logo color */
+}
+
+.search-container {
+  flex: 1; /* Take available space */
+  margin: 0 20px; /* Margins for spacing */
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e4e4e4; /* Light border */
+  border-radius: 5px;
+  outline: none; /* Remove default outline */
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.notification {
+  position: relative;
+  margin-right: 20px;
+}
+
+.notification-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px; /* Small notification count */
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.flag-icon {
+  width: 20px; /* Adjust size for flag */
+  margin-right: 5px; /* Space between flag and text */
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  width: 30px; /* Size of the profile picture */
+  border-radius: 50%; /* Circular profile picture */
+  margin-right: 10px; /* Space between image and text */
+}
+
+.user-info {
+  text-align: right;
+}
+
+.role {
+  font-size: 12px; /* Smaller role text */
+  color: gray; /* Role color */
+}
